@@ -1,16 +1,13 @@
 package me.fhoz.globiamachines.utils;
 
+import org.bukkit.Material;
+
 import dev.j3fftw.extrautils.utils.LoreBuilderDynamic;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.core.attributes.MachineTier;
 import io.github.thebusybiscuit.slimefun4.core.attributes.MachineType;
 import io.github.thebusybiscuit.slimefun4.utils.LoreBuilder;
-import io.github.thebusybiscuit.slimefun4.utils.itemstack.ColoredFireworkStar;
 import me.fhoz.globiamachines.machines.BudgetDustFabricator;
-
-import org.bukkit.Color;
-import org.bukkit.Material;
-import org.bukkit.enchantments.Enchantment;
 
 /**
  * Specifies all plugin items

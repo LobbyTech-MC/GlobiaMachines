@@ -1,25 +1,22 @@
 package me.fhoz.globiamachines;
 
+import javax.annotation.Nonnull;
+
+import org.bukkit.Material;
+import org.bukkit.NamespacedKey;
+import org.bukkit.inventory.ItemStack;
+
 import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.items.groups.NestedItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.groups.SubItemGroup;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
 import me.fhoz.globiamachines.machines.BudgetDustFabricator;
 import me.fhoz.globiamachines.utils.GlobiaItems;
 
-import javax.annotation.Nonnull;
-import org.bukkit.Material;
-import org.bukkit.NamespacedKey;
-import org.bukkit.inventory.ItemStack;
-
 public final class GlobiaItemSetup {
 
     // ItemGroup
-    private static final NestedItemGroup globiamachines = new NestedItemGroup(
+    private static final ItemGroup globiamachines = new ItemGroup(
             new NamespacedKey(GlobiaMachines.getInstance(), "globiaslimefun"),
             new CustomItemStack(Material.SMOKER, "&6全球机器")
     );

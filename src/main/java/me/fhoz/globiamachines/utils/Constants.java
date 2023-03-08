@@ -1,16 +1,15 @@
 package me.fhoz.globiamachines.utils;
 
-import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
-import me.fhoz.globiamachines.GlobiaMachines;
-import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import org.bukkit.Bukkit;
-import org.bukkit.NamespacedKey;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.regex.Pattern;
+
+import org.bukkit.Bukkit;
+
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
+import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
 
 public final class Constants {
 
