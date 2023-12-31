@@ -26,7 +26,7 @@ public final class GlobiaItemSetup {
     }
 
     public static void setup(@Nonnull GlobiaMachines plugin) {
-        new BudgetDustFabricator(globiamachines, GlobiaItems.BUDGET_DUST_FABRICATOR,
+        new BudgetDustFabricator(globiamachines, GlobiaItems.GLOBIAITEMS_BUDGET_DUST_FABRICATOR,
                 RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[]{
                 new ItemStack(Material.GRINDSTONE), new ItemStack(Material.GRINDSTONE),
                 new ItemStack(Material.GRINDSTONE),

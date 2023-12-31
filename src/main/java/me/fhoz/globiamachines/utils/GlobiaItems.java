@@ -17,7 +17,7 @@ public class GlobiaItems {
     private GlobiaItems() {
     }
 
-    public static final SlimefunItemStack BUDGET_DUST_FABRICATOR = new SlimefunItemStack("BUDGET_DUST_FABRICATOR",
+    public static final SlimefunItemStack GLOBIAITEMS_BUDGET_DUST_FABRICATOR = new SlimefunItemStack("GLOBIAITEMS_BUDGET_DUST_FABRICATOR",
             Material.SMOKER,
             "&c预算粉尘泵",
             "",
